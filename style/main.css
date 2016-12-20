@@ -1,0 +1,115 @@
+
+body, html{ height:100%; overflow:auto; background-color:#fff }
+
+.disable-transitions *{ transition:all 0s ease-in-out !important }
+
+#journal, #wingmen-app #menu, #wingmen-app .square{ transition:all .5s ease-in-out }
+
+h1, h2, h3, h4, h5{ transition:letter-spacing .5s ease-in-out; color:#222; letter-spacing:.05em; }
+
+
+.square:hover h2.section-title{ letter-spacing:.04em }
+
+h3, h5{ color:#313131 }
+
+a, div, p, ul{color:#4A4A4A }
+
+html{ font-size:14px;}
+
+body{ font-size:100%; }
+
+
+#wingmen-app{height:100%;margin:0 auto; position:relative; overflow-x:hidden }
+
+#wingmen-app .logo-part{ position:absolute; z-index:10; font-size:15em; opacity:.5 }
+
+#wingmen-app .logo-part#logo-top-left{ right:-.67em; bottom:-.5em }
+
+#wingmen-app .logo-part#logo-top-right{ left:-.66em; bottom:-.5em }
+
+#wingmen-app .logo-part#logo-bottom-left{ top:-.5em; right:-.67em }
+
+#wingmen-app .logo-part#logo-bottom-right{ top:-.5em; left:-.66em }
+
+@-moz-document url-prefix(){
+	#wingmen-app .logo-part#logo-top-right{ bottom:-.495em }
+	#wingmen-app .logo-part#logo-bottom-right{ top:-.505em }
+}
+
+#wingmen-app .info{ width:70%; margin:0 auto }
+
+#wingmen-app .client{ margin:0 auto 3em; text-align:center }
+
+#wingmen-app .client .logo{ width:70%; margin:0 auto }
+
+#wingmen-app .client .tags{ width:70%; margin:0 auto; font-size:1.5em }
+
+#wingmen-app .client .tags .tags-line{ font-size:.7em;  display:block; color:#bdbdbd }
+
+#wingmen-app .ventures{ text-align:center }
+
+#wingmen-app .ventures .venture{ display:inline-block; margin:0 auto 2em; width:80%; text-align:left }
+
+#wingmen-app .ventures .venture .logo{ margin-right:8%; width:20%; display:inline-block; vertical-align:middle }
+
+#wingmen-app .ventures .venture .info{ width:72%; vertical-align:middle; display:inline-block }
+
+#wingmen-app .ventures .venture .info .description{ margin-bottom:.5em }
+
+#wingmen-app .ventures .venture .info .description .tags-line{ font-size:.7em;  display:block; color:#bdbdbd }
+
+#wingmen-app .square{ overflow:hidden; cursor:pointer; display:none; width:50%; height:50%; vertical-align:top; position:absolute; background-color:#fff }
+
+#wingmen-app .square.square:hover{ background-color:#bbb !important }
+
+#wingmen-app .square.square:hover .section-title{ color:#261732 }
+
+#wingmen-app .square.square:hover .logo-part{ color:#261732; opacity:1 }
+
+#wingmen-app .square.square.minified{ width:0; height:0% }
+
+#wingmen-app .square.square.hideflow{ overflow:hidden }
+
+#wingmen-app .square.square.focused{ background-color:#fff !important; cursor:auto; width:100%; height:100%; overflow:auto }
+
+#wingmen-app .square.square.focused .section-title{ color:#261732; text-decoration:none }
+
+#wingmen-app .square .section-title{ opacity:0 }
+
+#wingmen-app .square .section-slogan, #wingmen-app .square .section-title{ text-align:center; width:100%; text-transform:uppercase; color:#261732; padding:0 10% }
+
+#wingmen-app .square .section-slogan{ margin:1em 0 2em; font-size:2.2rem;font-weight:bold;}
+
+#wingmen-app .square .content{ display:none; text-align:left;}
+
+#wingmen-app .square .content .explanation{ width:80%; margin:0 auto }
+
+#wingmen-app .square .content .contact-strip{ padding:5em 0 }
+
+#wingmen-app .square .content .button{ display:block; padding:.8em 1em; font:400 1em Montserrat, sans-serif; color:#fff !important; background-color:#261732 !important; margin:0 auto; width:80%; text-decoration:none; border:.1em solid #261732 }
+
+#wingmen-app .square .content .button:hover{ background-color:#331f44 !important }
+
+#wingmen-app #menu{ display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%) }
+
+#wingmen-app #menu .wrap i{ color:#000; opacity:.5; font-size:15em; line-height:1.5em }
+
+#wingmen-app #menu .wrap h1{ display:none }
+
+#wingmen-app #back{ display:none; position:fixed; cursor:pointer }
+
+#wingmen-app #back .wrap{ position:relative; width:5em; height:5em }
+
+#wingmen-app #back .wrap .inner, #wingmen-app #back .wrap .outer{ width:0; height:0; transform:translate(-50%, -50%); position:absolute }
+
+#wingmen-app #back .wrap .outer{ top:50%; left:50%; border-bottom:4em solid transparent; border-left:4em solid #261732 }
+
+#wingmen-app #back .wrap .inner{ top:51%; left:51%; border-bottom:1.5em solid transparent; border-left:1.5em solid #fff }
+
+#wingmen-app #top-left{ background-color:#f7f7f7; top:0; left:0 }
+
+#wingmen-app #top-right{ background-color:#f0f0f0; top:0; right:0 }
+
+#wingmen-app #bottom-left{ background-color:#e8e8e8; bottom:0; left:0 }
+
+#wingmen-app #bottom-right{ background-color:#e0e0e0; bottom:0; right:0 }

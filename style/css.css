@@ -1,0 +1,55 @@
+#wingmen-app h2.section-title{font-size:3rem;font-weight:bold;}
+#wingmen-app h2.section-title span{font-size:1.5rem;}
+#wingmen-app .about{ width:98%;margin:0 auto;padding:1rem;}
+#wingmen-app .about .present p{text-align:left;font-size:1.3rem;margin-top:1rem;line-height:2rem;}
+#teacher{ width:100%;padding:2rem 0;}
+#teacher li{width:100%;padding:1rem 0;}
+#teacher li h6{width:27.5%;float:left;text-align: center;}
+#teacher li h6 img{max-width:100%;border: .4rem solid #bdbdbd;border-radius:50%;}
+#teacher li dl{width:70%;float:right;}
+#teacher li dl dt{font-weight:bold;font-size:1.3rem;}
+#teacher li dl h5{font-size:1.3rem;}
+#teacher li dl dd{font-size:1.2rem;}
+#Contact h3{font-weight:bold;font-size:1.8rem;margin-bottom:1rem;}
+#Contact li{margin:.5rem 0 2rem 0;}
+#Contact li p{margin:.5rem 0;font-size:1.3rem;}
+#Contact li p i{display:inline-block;}
+#Contact li p i[class*="icon-"]{font-size:1.6rem;padding-right:.5rem;}
+#wingmen-app .square .content{ width:98%;margin:0 auto;padding:1rem;}
+#wingmen-app .square .content .section-img{text-align:center;}
+#wingmen-app .square .content .section-img img{ width:50%;}
+#top-right .content .text{font-size:1.3rem;line-height:2rem;padding:1rem 0;}
+#top-right .content .list{font-size:1.3rem;line-height:2rem;padding:1rem 0;}
+#top-right .content .list p{font-size:1.3rem;}
+#top-right .content .list h5{font-weight:bold;font-size:1.4rem;margin: 2rem 0;}
+#top-right .content .wai-img{text-align:center;}
+#bottom-left .ventures .text{font-size:1.3rem;line-height:2.2rem;}
+#bottom-left .ventures .text h4{font-size:1.5rem;font-weight:bold;margin:1rem 0;}
+#bottom-right .contact-form .text{font-size:1.3rem;line-height:2rem;}
+.techar-more{padding:1rem 0;}
+.techar-more h6{text-align:center;}
+.techar-more h5{text-align:center;font-size:1.8rem;margin:1rem 0;}
+.techar-more p{font-size:1.4rem;padding:1rem;text-indent:2.5rem;line-height: 2.4rem;}
+.layui-layer-title{display:none;}
+#bottom-right .contact-form  h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 1rem 0;
+}
+@media screen and (max-width:50em){/* ipad 平板 800px */
+	html{font-size:100%!important;}
+
+}
+
+@media screen and (max-width:40em){ /* 640px  */
+	html{font-size:62.5%!important;}
+	#teacher li dl{padding-top:1rem;}
+}
+@media screen and (max-width:30em){ /* 480px  */
+
+
+}
+@media screen and (max-width:20em){ /* 320px  */
+
+
+}
